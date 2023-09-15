@@ -1,6 +1,11 @@
-//Notations (tipagens de parâmetros e retornos de função)
+//Notations (tipagens relacionadas a parâmetros e retornos de função)
 
-//const sum = (num1: number, num2: number): number => num1 + num2;
-const sum = (num1: number, num2: number) => num1 + num2;
+const sum = (a: number, b: number): number => {
+    return a + b;
+}
 
-const noReturnFunction = (message: string) => console.log(string);
+sum(1, 2);
+
+const noReturn = (message: string):void => {
+    console.log(message);
+}
